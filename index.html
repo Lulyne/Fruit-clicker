@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Clicker</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <div id="game">
+        <header>
+            <h1>Fruit Clicker</h1>
+        </header>
+        <main>
+            <div class="left">
+                <img src="assets/images/fruit.png" alt="Image d'un fruit" id="fruit-image" />
+            </div>
+            <div class="right">
+                <h2><span id="fruit-number"></span> Fruits</h2>
+                <span id="fruit-number-click"></span> /click   
+                <span id="fruit-number-second"></span> fruits/s
+                <div id="updates">
+                    <div id="cursor" class="update-box">
+                        <div class="level"></div>
+                        <div>
+                            Augmente les fruits par click<br/>Prix:
+                            <span class="price"></span> fruits
+                        </div>
+                        <input type="button" value="Update" />
+                    </div>
+                    <div id="farm" class="update-box">
+                        <div class="level"></div>
+                        <div>
+                            Genere des fruits/seconde<br/>Prix:
+                            <span class="price"></span> fruits
+                        </div>
+                        <input type="button" value="Update" />
+                    </div>
+                    <div id="multiplier" class="update-box">
+                        <div class="level"></div>
+                        <div>
+                            Genere plus de fruits/seconde<br/>Prix:
+                            <span class="price"></span> fruits
+                        </div>
+                        <input type="button" value="Update" />
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="assets/scripts/game.js"></script>
+</body>
+</html>

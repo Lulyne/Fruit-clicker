@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+#game{
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid black;
+    background-color: #bde0fe;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #a2d2ff;
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+#fruit-image {
+    max-height: 200px;
+    cursor: pointer;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+#updates {
+    margin: 20px 0;
+}
+
+.update-box {
+    display: flex;
+    background-color: #cdb4db;
+    margin: 5px 5px 5px 0px;
+}
+
+.update-box > div {
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.update-box > .level {
+    min-width: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-box > input {
+    margin-left: auto;
+}
+
+#fruit-image:active {
+    max-height: 205px;
+    cursor: pointer;
+}
